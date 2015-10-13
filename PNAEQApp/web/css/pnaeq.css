@@ -1,0 +1,338 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 8, 2015, 11:18:24 PM
+    Author     : Pinki Meggi
+*/
+/* html tags */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1050px;
+    text-align: center;
+    margin: 10px auto;
+    color: #444;
+}
+
+hr {
+    border: 0;
+    background-color: #333;
+    height: 1px;
+}
+
+table {
+    margin: 0 20px;
+    border-spacing: 0;
+    text-align: center;
+    border: solid 1px #f5eabe;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+a:hover { text-decoration: none }
+
+a:visited { color: inherit }
+
+img { border: none }
+
+input, select { margin: 5px }
+
+li { margin: 10px 0 }
+
+label { line-height: 30px }
+
+label.error {
+    font-size: smaller;
+    line-height: 20px;
+    font-style: italic;
+}
+
+h2 { color:#c00; text-align: center;}
+/* header and banner styles */
+
+#header {
+    width: 1050px;
+    height: 150px;
+    background: url(../img/back_3.png) no-repeat;
+}
+
+#logo {
+    float: left;
+    margin-left: 30px;
+    margin-top: -10px;
+}
+
+#logoText {
+    float: left;
+    margin: 20px 0 0 300px;
+    /* font styles apply to text within img alt attribute */
+    font-family: 'American Typewriter', Courier, monospace;
+    font-size: 50px;
+    color: #333;
+}
+
+/* general styles */
+#main { background:#B0E0E6; }
+
+#singleColumn {
+    margin: 20px 30px;
+    text-align: left;
+}
+
+
+.bubble {
+    font-weight: bold;
+    background-color: #f5eabe;
+    padding: 5px;
+    color: inherit;
+    display: inline;
+    border-radius: 4px;
+}
+
+.hMargin { margin: 0 30px }
+
+.smallText { font-size: small }
+
+.reallySmallText { font-size: xx-small; font-weight: bold;}
+
+.error {
+    color: #c00;
+    font-style: italic;
+}
+
+.tableHeading {
+    font-weight: bold;
+    background-color: #edf8f7;
+}
+
+
+.bubbleLink {
+    font-weight: bold;
+    color: inherit;
+    display:inline;
+    padding: 300px;
+}
+
+
+
+/* footer styles */
+#footer {
+    height: 60px;
+    width: 350px;
+    clear: left;
+}
+
+#footerText { margin-top: 5px }
+
+#footerDivider {
+    margin: 0 25px;
+    width: 300px;
+}
+
+
+#loginBox {
+    width: 300px;
+    margin: 0 auto;
+    border: solid 1px #5F9EA0;
+    background-color: #5F9EA0;
+    border-radius: 4px;
+}
+
+#indexLeftColumn {
+    text-align: center;
+    font-weight: bold;
+    width: 200px;
+    float: left;
+    margin: 0px 5px 0 20px;
+    padding:10px;
+}
+
+#indexRightColumn {
+    text-align: left;
+    width: 770px;
+    float: left;
+   /* background: #ffffff;*/
+    margin-left: 20px;
+}
+
+#welcomeMenu {
+    float: left;
+    width: 200px;
+    margin: 0px 0px 0 0px;
+    border: solid 1px #4DA6A6;
+    background-color: #4DA6A6;
+    border-radius: 4px;
+}
+
+#welcomeMenu p { margin-left: 15px }
+
+#welcomeText {
+    margin: 18px 5px 0 18px;
+    line-height: 1.8em;
+    color: #ffffff;
+}
+
+#menu {
+    float: left;
+    width: 200px;
+    margin: 0px 0px 0 0px;
+    border: solid 1px #87CEEB;
+    background-color: #87CEEB;
+    border-radius: 4px;
+}
+#menu p { margin-left: 15px }
+
+.categoryBox {
+    height: 176px;
+    width: 212px;
+    margin: 10px 5px 6px;
+    float: inherit;
+}
+
+/* Safari - disables underline for category boxes on index page */
+.categoryBox a { text-decoration: none; }
+
+.categoryLabel {
+    position: absolute;
+    background-color: #fff;
+    opacity: 0.7;
+    height: 40px;
+    width: 210px;
+    margin: 2px;
+}
+
+.categoryLabelText {
+    position: absolute;
+    line-height: 150%;
+    font-size: large;
+    margin: 3px 10px;
+    line-height: 1.8em;
+    font-weight: bold;
+}
+
+.categoryImage {
+    padding: 1px;
+    border:solid 1px #555;
+}
+
+/* Safari - disables underline for category boxes on index page */
+#eqaTable { width: 750px }
+
+#eqaTable td {
+    width: 10px;
+    height: 30px;
+    font-size: small;
+    color: #333;
+}
+
+.header {
+    background-color: #4DA6A6;
+    height: 30px;
+}
+
+.lightBlue { background-color: #edf8f7 }
+
+.white { background-color: #fff }
+
+.blue { background-color: #fff}
+
+.alignLeft { text-align: left }
+
+.selectedRow {
+    background-color: #c3e3e0;
+    cursor: pointer;
+}
+
+
+.noDecoration { text-decoration: none }
+
+.rigidWidth { width:200px }
+
+.embedded {
+    margin: 0;
+    border: none;
+}
+
+.icon {
+    height: 16px;
+    width: 16px;
+    padding: 3px;
+    border: 0;
+}
+
+/* eqaRegistration form */
+#eqaRegisterTable {
+    width: 750px;
+    border: none;
+}
+
+#eqaRegisterTable td {
+    width: 180px;
+    height: 30px;
+    font-size: small;
+    color: #333;
+}
+
+#eqaRegisterTable th {
+    background-color: #4DA6A6;
+    text-align: left;
+    padding: 6px;
+    font-size: 15px;
+}
+
+.inputField { 
+    font-size: 14px;
+    width: 180px;
+}
+
+.inputFieldReadOnly { 
+    font-size: 10px;
+    width: 100px;
+}
+.secondHeader { 
+    background-color:#A6D2D2;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#eqaRegisterTable select {
+    font-size: 12px;
+}
+
+/* EQA INFO */
+#eqaInfoBox {
+    border: 1px solid #C3E6F5;
+    background-color: #C3E6F5;
+    border-radius: 4px;
+    width: 750px;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+}
+
+#eqaInfoBox td {
+    text-align: left;
+    padding: 5px;
+}
+
+.eqaInfoColumn {
+    font-weight: bold;
+}
+
+#eqaInfoBox th {
+    font-weight: bold;
+    text-align: left;
+    padding: 5px;
+    background-color: #87CEEB;
+    font-size: 15px;
+}
+
+.total { border-top: 1px solid #444 }
+
+.indent { margin-left: 6em }

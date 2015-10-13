@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <context-param>
+        <description>The relative path to categories images</description>
+        <param-name>categoriesImagePath</param-name>
+        <param-value>img/categories/</param-value>
+    </context-param>
+    <context-param>
+        <description>The relative path to other images</description>
+        <param-name>imagePath</param-name>
+        <param-value>img</param-value>
+    </context-param>
+    <jsp-config>
+        <jsp-property-group>
+            <display-name>header and footer</display-name>
+            <url-pattern>/index.jsp</url-pattern>
+            <url-pattern>/WEB-INF/view/*</url-pattern>
+            <include-prelude>/WEB-INF/jsfp/header.jspf</include-prelude>
+            <include-coda>/WEB-INF/jsfp/footer.jspf</include-coda>
+        </jsp-property-group>
+    </jsp-config>
+    <resource-ref>
+        <description>Connects to database for PNAEQ 
+Application </description>
+        <res-ref-name>jdbc/pnaeqdb</res-ref-name>
+        <res-type>javax.sql.ConnectionPoolDataSource</res-type>
+        <res-auth>Container</res-auth>
+        <res-sharing-scope>Shareable</res-sharing-scope>
+    </resource-ref>
+</web-app>
