@@ -1,5 +1,5 @@
 # PNAEQ - National Programme of External Quality Assessment in Ministry of Health of Mozambique
-This is the readme.md file of PNAEQ Project, the thesis for Computer Science Master Course at University of Trento, Italy.
+This is the readme.md file of PNAEQ Project, the thesis project for Computer Science Master Course at University of Trento, Italy.
 
 ## Project Description
 The main is goal of this project is to analysis, design and implement a web application that allows to manage the data and
