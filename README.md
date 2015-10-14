@@ -33,11 +33,11 @@ c.Deploy PNAEQApp.war[2] file in **"Packaged File to be Uploaded to the Server"*
 
 
 ## Mockups Testing
-To test the application mockups go to **http://localhost:8080/PNAEQApp**
-Use the following users to test the mockups:
-&nbsp;&nbsp;supervisor/123456
-&nbsp;&nbsp;coordinator/123456
-&nbsp;&nbsp;cltm/123456
+To test the application mockups go to **http://localhost:8080/PNAEQApp**<br>
+Use the following users to test the mockups:<br>
+&nbsp;&nbsp;supervisor/123456<br>
+&nbsp;&nbsp;coordinator/123456<br>
+&nbsp;&nbsp;cltm/123456<br>
 
 
 ## Link to Documentation
