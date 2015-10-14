@@ -16,7 +16,7 @@ JDK 7 or above installed.
 To check if you have JDK 7 installed type javac - version in shell/command prompt.
 
 **Step 1. Download Glassfish**
-You can download GlassFish Application Server from the download page [Here](link:https://glassfish.java.net/download.html)
+You can download GlassFish Application Server from the download page [here](https://glassfish.java.net/download.html).
 
 **Step 2. Install Glassfish**
 Extract the Zip in the directory where you want to have GlassFish installed.
