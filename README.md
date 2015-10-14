@@ -35,10 +35,10 @@ c.Deploy PNAEQApp.war[2] file in **"Packaged File to be Uploaded to the Server"*
 ## Mockups Testing
 To test the application mockups go to **http://localhost:8080/PNAEQApp**<br>
 Use the following users to test the mockups:<br>
-&nbsp;&nbsp;supervisor/123456<br>
-&nbsp;&nbsp;coordinator/123456<br>
-&nbsp;&nbsp;cltm/123456<br>
-
+&nbsp;&nbsp;&nbsp;&nbsp;supervisor<br>
+&nbsp;&nbsp;&nbsp;&nbsp;coordinator<br>
+&nbsp;&nbsp;&nbsp;&nbsp;cltm<br>
+The password is 123456
 
 ## Link to Documentation
 The link to PNAEQ Project report can be found here (not available). 
