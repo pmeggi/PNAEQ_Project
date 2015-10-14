@@ -26,10 +26,18 @@ From the Glassfish installed directory execute following command:<br>
 &nbsp;&nbsp;&nbsp;&nbsp;**bin/asadmin start-domain**<br>    
 To stop Glassfish server, you can issue **bin/asadmin stop-domain**
 
-####Step 4. Depoy PNAEQApp.war
+####Step 4. Deploy PNAEQApp.war
 a.Go to **http://localhost:4848** => this will open administration console of Glassfish server.<br>
 b.Select **Applications** option from left side menu.<br>
 c.Deploy PNAEQApp.war[2] file in **"Packaged File to be Uploaded to the Server"** option.
+
+
+## Mockups Testing
+To test the application mockups go to **http://localhost:8080/PNAEQApp**
+Use the following users to test the mockups:
+&nbsp;&nbsp;supervisor/123456
+&nbsp;&nbsp;coordinator/123456
+&nbsp;&nbsp;cltm/123456
 
 
 ## Link to Documentation
