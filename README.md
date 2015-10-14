@@ -23,13 +23,13 @@ Extract the Zip in the directory where you want to have GlassFish installed.
 
 **Step 3. Start and Stop Glassfish Server**<br>
 From the Glassfish installed directory execute following command:<br>
-&nbsp;&nbsp;bin/asadmin start-domain<br>    
-To stop Glassfish server, you can issue bin/asadmin stop-domain
+&nbsp;&nbsp;&nbsp;&nbsp;**bin/asadmin start-domain**<br>    
+To stop Glassfish server, you can issue **bin/asadmin stop-domain**
 
 **Step 4. Depoy PNAEQApp.war**<br>
-Go to http://localhost:4848 => this will open administration console of Glassfish server.
-Select **Applications** option from right side menu.
-Deploy PNAEQApp.war[2] file in Packaged File to be Uploaded to the Server option.
+Go to **http://localhost:4848** => this will open administration console of Glassfish server.<br>
+Select **Applications** option from left side menu.<br>
+Deploy PNAEQApp.war[2] file in **"Packaged File to be Uploaded to the Server"** option.
 
 
 ## Link to Documentation
