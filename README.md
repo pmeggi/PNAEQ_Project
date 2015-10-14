@@ -11,7 +11,7 @@ The application is being developed according to the following architetcure:
 ![Alt text](architecture.jpg?raw=true "PNAEQ Architecture")
 
 The technologies used are according to the followingg:
-
+![Alt text](Technologies.png?raw=true "PNAEQ Web Technologies")
 
 
 ## Depoyment Instructions
