@@ -7,8 +7,12 @@ produce reports for PNAEQ, related to HIV, Malaria and TB blood tests.
 The main actors are Laboratories Supervisors, EQAs Coordinators, Central Logistic Team(CLT) Members and system adminstrators.
 
 ## Architecture
-The application is beign devolved according to the following architetcure:
-![Alt text](architecture.png?raw=true "PNAEQ Architecture")
+The application is being developed according to the following architetcure:
+![Alt text](architecture.jpg?raw=true "PNAEQ Architecture")
+
+The technologies used are according to the followingg:
+![Alt text](Technologies.png?raw=true "PNAEQ Web Technologies")
+
 
 ## Depoyment Instructions
 ####Step 0. Prerequisite
