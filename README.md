@@ -8,7 +8,7 @@ The main actors are Laboratories Supervisors, EQAs Coordinators, Central Logisti
 
 ## Architecture
 The application is beign devolved according to the following architetcure:
-![Alt text](architecture.png?raw=true "PNAEQ Architecture")
+![Alt text](architecture.jpg?raw=true "PNAEQ Architecture")
 
 ## Depoyment Instructions
 ####Step 0. Prerequisite
