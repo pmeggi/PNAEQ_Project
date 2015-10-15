@@ -32,6 +32,7 @@ To stop Glassfish server, you can issue **bin/asadmin stop-domain**
 
 ####Step 4. Deploy PNAEQApp.war
 Go to **http://localhost:4848** => this will open administration console of Glassfish server.<br>
+If login page appears, use login=admin and no password.
 Select **Applications** option from left side menu.<br>
 Deploy [PNAEQApp.war][1] file in **"Packaged File to be Uploaded to the Server"** option.
 
